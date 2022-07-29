@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <string-array name="animalList">
+        <item>Gajah</item>
+        <item>Kucing</item>
+        <item>Platipus</item>
+        <item>Anjing</item>
+        <item>Ulet</item>
+        <item>Flaminggo</item>
+        <item>Elang</item>
+        <item>Semut</item>
+        <item>Marmut</item>
+        <item>Kalajengking</item>
+        <item>Hiu</item>
+        <item>Paus</item>
+    </string-array>
+</resources>
