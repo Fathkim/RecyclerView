@@ -9,7 +9,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28125" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_third.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/animal_item.xml" value="0.2942708333333333" />
+        <entry key="app/src/main/res/layout/item_pahlawan.xml" value="0.2942708333333333" />
         <entry key="app/src/main/res/layout/profil_item.xml" value="0.2942708333333333" />
       </map>
     </option>

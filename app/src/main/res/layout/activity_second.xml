@@ -13,5 +13,5 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:layout_editor_absoluteX="-38dp"
         tools:layout_editor_absoluteY="0dp"
-        tools:listitem="@layout/profil_item" />
+        tools:listitem="@layout/item_profil" />
 </androidx.constraintlayout.widget.ConstraintLayout>

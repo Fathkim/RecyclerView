@@ -4,15 +4,15 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.fathkim.myapplication.databinding.ProfilItemBinding
+import com.fathkim.myapplication.databinding.ItemProfilBinding
 
 class ProfilAdapter(private val profilList: List<Profil> ) : RecyclerView.Adapter<ProfilAdapter.ProfilViewHolder>() {
-     inner class ProfilViewHolder(val binding: ProfilItemBinding) : RecyclerView.ViewHolder(binding.root){
+     inner class ProfilViewHolder(val binding: ItemProfilBinding) : RecyclerView.ViewHolder(binding.root){
 
      }
 
      override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ProfilViewHolder (
-          ProfilItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+          ItemProfilBinding.inflate(LayoutInflater.from(parent.context), parent, false)
      )
 
      override fun onBindViewHolder(holder: ProfilViewHolder, position: Int) {

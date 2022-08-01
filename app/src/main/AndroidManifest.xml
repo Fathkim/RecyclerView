@@ -4,7 +4,7 @@
     package="com.fathkim.myapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,10 +16,7 @@
         android:theme="@style/Theme.RecyclerView"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".secondrecyclerview.SecondActivity"
+            android:name=".thirdrecyclerview.ThirdActivity"
             android:exported="false" />
         <activity
             android:name=".firstrecyclerview.FirstActivity"

@@ -7,6 +7,7 @@ import com.fathkim.myapplication.databinding.ActivityFirstBinding
 import com.fathkim.myapplication.databinding.ActivityMainBinding
 import com.fathkim.myapplication.firstrecyclerview.FirstActivity
 import com.fathkim.myapplication.secondrecyclerview.SecondActivity
+import com.fathkim.myapplication.thirdrecyclerview.ThirdActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.secondRecyclerView.setOnClickListener{
             startActivity(Intent(this, SecondActivity::class.java))
+        }
+
+        binding.thirdRecyclerView.setOnClickListener{
+            startActivity(Intent(this, ThirdActivity::class.java))
         }
 
     }
