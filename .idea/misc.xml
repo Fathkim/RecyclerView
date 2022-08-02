@@ -6,12 +6,14 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1405" />
         <entry key="app/src/main/res/drawable/bg_item.xml" value="0.1405" />
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_fourt.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.28125" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_third.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/animal_item.xml" value="0.2942708333333333" />
         <entry key="app/src/main/res/layout/item_pahlawan.xml" value="0.2942708333333333" />
+        <entry key="app/src/main/res/layout/item_phone.xml" value="0.2942708333333333" />
         <entry key="app/src/main/res/layout/profil_item.xml" value="0.2942708333333333" />
       </map>
     </option>

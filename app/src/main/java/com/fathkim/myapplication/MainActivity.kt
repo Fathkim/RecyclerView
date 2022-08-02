@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.fathkim.myapplication.databinding.ActivityFirstBinding
 import com.fathkim.myapplication.databinding.ActivityMainBinding
 import com.fathkim.myapplication.firstrecyclerview.FirstActivity
+import com.fathkim.myapplication.forthrecyclerview.FourtActivity
 import com.fathkim.myapplication.secondrecyclerview.SecondActivity
 import com.fathkim.myapplication.thirdrecyclerview.ThirdActivity
 
@@ -30,6 +31,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ThirdActivity::class.java))
         }
 
+        binding.fourtRecyclerView.setOnClickListener {
+            startActivity(Intent(this, FourtActivity::class.java))
+        }
     }
 
 }
